@@ -1,0 +1,359 @@
+/* Small Mobiles */
+@media (max-width: 375px) {
+    body{
+        font-size: 6px;
+    }
+    
+    .main-titles button{
+        margin-top: 3em;
+        font-size: 3em;
+    }
+
+    .intro-section .change-color{
+        color: white;
+        text-shadow: 0.1em 0.1em 0.1em var(--shadow-color2);
+        padding-right:0.2em ;
+        transform: translateX(-0.2em) translateY(-0.2em) scale(1.6);
+        letter-spacing: 0.2em;
+    }
+
+    .intro-section{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 100%;
+        padding: 35vh 5em;
+    }
+
+    nav{
+        font-size: 9.8px;
+    }
+
+    .left h3{
+        display: none;
+    }
+
+    .about-section{
+        font-size: 13px;
+        padding: 5em 2em;
+        text-align: center;
+    }
+
+    .about-section p{
+        font-size: 1.55em;
+        width: fit-content;
+    }
+
+    .projects-section{
+        padding: 1em 0;
+        width: 100%;
+        align-items: center;
+        flex-direction:column ;
+        font-size: 12px;
+    }
+}
+/* Medium Large Mobiles */
+@media (max-width: 584px) and (min-width : 375px) {
+    body{
+        font-size: 6.8px;
+    }
+    
+    .main-titles button{
+        margin-top: 3em;
+        font-size: 3em;
+    }
+
+    .intro-section .change-color{
+        color: white;
+        text-shadow: 0.1em 0.1em 0.1em var(--shadow-color2);
+        padding-right:0.2em ;
+        transform: translateX(-0.2em) translateY(-0.2em) scale(1.6);
+        letter-spacing: 0.2em;
+    }
+
+    .intro-section{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 100%;
+        padding: 35vh 5em;
+    }
+
+    nav{
+        font-size: 9.8px;
+    }
+
+    .left h3{
+        display: none;
+    }
+
+    .about-section{
+        font-size: 13px;
+        padding: 5em 2em;
+        text-align: center;
+    }
+
+    .about-section p{
+        font-size: 1.55em;
+        width: fit-content;
+    }
+
+    .projects-section{
+        padding: 1em 0;
+        width: 100%;
+        align-items: center;
+        flex-direction:column ;
+        font-size: 12px;
+    }
+}
+/* large Mobile & Tablets */
+@media (max-width: 849px) and (min-width : 585px) {
+    body{
+        font-size: 10px;
+    }
+    
+    .main-titles button{
+        margin-top: 2em;
+        font-size: 3em;
+    }
+
+    .intro-section .change-color{
+        color: white;
+        text-shadow: 0.1em 0.1em 0.1em var(--shadow-color2);
+        padding-right:0.2em ;
+        transform: translateX(-0.2em) translateY(-0.2em) scale(1.6);
+        letter-spacing: 0.22em;
+    }
+
+    .intro-section{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 100%;
+        padding: 35vh 5em;
+    }
+
+    nav{
+        font-size: 15px;
+    }
+
+    .left h3{
+        display: none;
+    }
+
+    .about-section{
+        font-size: 20px;
+        padding: 5em 2em;
+        text-align: center;
+    }
+
+    .about-section p{
+        font-size: 1.55em;
+        width: fit-content;
+    }
+
+    .projects-section{
+        padding: 1em 0;
+        width: 100%;
+        align-items: center;
+        flex-direction:column ;
+        font-size: 18px;
+    }
+}
+
+/* large Tablets */
+@media (max-width: 1023px) and (min-width : 850px) {
+    body{
+        font-size: 14px;
+    }
+    
+    .main-titles button{
+        margin-top: 1.5em;
+        font-size: 2.5em;
+    }
+
+    .intro-section .change-color{
+        color: white;
+        text-shadow: 0.1em 0.1em 0.1em var(--shadow-color2);
+        padding-right:0.2em ;
+        transform: translateX(-0.2em) translateY(-0.2em) scale(1.6);
+        letter-spacing: 0.22em;
+    }
+
+    .intro-section{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 100%;
+        padding: 35vh 5em;
+    }
+
+    nav{
+        font-size: 15px;
+    }
+
+    .left h3{
+        display: none;
+    }
+
+    .about-section{
+        font-size: 17px;
+        padding: 5em 2em;
+        text-align: center;
+    }
+
+    .about-section p{
+        font-size: 1.55em;
+        width: fit-content;
+    }
+
+    .projects-section{
+        padding: 1em 0;
+        width: 100%;
+        align-items: center;
+        flex-direction:column ;
+        font-size: 20px;
+    }
+}
+
+/* Small Screens */
+@media (max-width: 1279px) and (min-width : 1024px) {
+    body{
+        font-size: 14px;
+    }
+    
+    .main-titles button{
+        margin-top: 1.5em;
+        font-size: 2.5em;
+    }
+
+    .intro-section .change-color{
+        color: white;
+        text-shadow: 0.1em 0.1em 0.1em var(--shadow-color2);
+        padding-right:0.2em ;
+        transform: translateX(-0.2em) translateY(-0.2em) scale(1.6);
+        letter-spacing: 0.22em;
+    }
+
+    .intro-section{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 100%;
+        padding: 35vh 5em;
+    }
+
+    nav{
+        font-size: 15px;
+    }
+
+    /* .left h3{
+        display: none;
+    } */
+
+    .about-section{
+        font-size: 16px;
+        padding: 5em 8em;
+        text-align: center;
+    }
+
+    .about-section p{
+        font-size: 1.55em;
+        width: fit-content;
+    }
+
+    .projects-section{
+        padding:  0 5em 5em 5em;
+        width: 100%;
+        align-items: center;
+        flex-direction:row ;
+        font-size: 16px;
+    }
+}
+/* HD Screen */
+@media (max-width: 1435px) and (min-width : 1280px) {
+    body{
+        font-size: 14px;
+    }
+    
+    .main-titles button{
+        margin-top: 1.5em;
+        font-size: 2.5em;
+    }
+
+    .intro-section .change-color{
+        color: white;
+        text-shadow: 0.1em 0.1em 0.1em var(--shadow-color2);
+        padding-right:0.2em ;
+        transform: translateX(-0.2em) translateY(-0.2em) scale(1.6);
+        letter-spacing: 0.22em;
+    }
+
+    .intro-section{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 100%;
+        padding: 35vh 5em;
+    }
+
+    nav{
+        font-size: 15px;
+    }
+
+    /* .left h3{
+        display: none;
+    } */
+
+    .about-section{
+        font-size: 20px;
+        padding: 5em 2em;
+        text-align: center;
+    }
+
+    .about-section p{
+        font-size: 1.55em;
+        width: fit-content;
+    }
+    
+    .projects-section{
+        flex-direction: row;
+        padding: 0em 5em;
+        width: 100%;
+        justify-content: space-around;
+        font-size: 16px;
+    }
+    
+    .project-item{
+        margin: 3em 1em ;
+    }
+}
+
+/* The resolution between 1440px to 1600px is the main css file */
+
+/* Full HD Screen */
+
+@media (max-width: 2134px) and (min-width : 1800px) {
+    body{
+        font-size: 18px;
+    }
+    .project-item{
+        margin: 3em 4em ;
+    }
+}
+
+/* Ultra HD Screens 2k */
+
+@media (max-width: 3600px) and (min-width : 2135px) {
+    body{
+        font-size: 22px;
+    }
+    .project-item{
+        margin: 3em 2em ;
+    }
+}
+
+/* Ultra HD Screens 4k+ */
+
+@media (min-width : 3601px) {
+    body{
+        font-size: 35px;
+    }
+    .project-item{
+        margin: 4em 4em ;
+    }
+}

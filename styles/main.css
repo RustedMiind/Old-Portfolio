@@ -1,0 +1,276 @@
+/* @import url('https://www.dafont.com/sansation.font'); */
+
+* {
+  font-family: "Sansation";
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  /* Text No select */
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Start Editiong from Here */
+
+:root {
+  --main-width: 95vw;
+  --main-height: calc(100vh - 5vw);
+  --margin-space: 2.5vw;
+  --font-color: #850a60;
+  --light-color: rgb(194, 178, 209);
+  --shadow-color: rgba(133, 10, 96, 0.5);
+  --shadow-color2: #af1281;
+}
+
+/* Body */
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Site Container */
+
+.site-container {
+  scroll-behavior: smooth;
+  box-shadow: 0.6em 0.6em 0.9em 0.3em rgba(0, 0, 0, 0.25);
+  margin: var(--margin-space);
+  width: var(--main-width);
+  height: var(--main-height);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 1em;
+}
+
+/* Navigation Bar */
+
+nav * {
+  color: var(--font-color);
+}
+
+nav {
+  z-index: 100;
+  border-radius: 1em 1em 0 0;
+  width: var(--main-width);
+  background-color: var(--light-color);
+  height: 2.5em;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.8em 2.6em;
+}
+
+nav .left,
+nav .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  font-size: 1.5em;
+  display: block;
+}
+
+nav span {
+  font-size: 2em;
+  padding: 0.3em;
+  display: block;
+}
+
+/* Left Side */
+nav .left img {
+  width: 5.5em;
+}
+nav .left h3 {
+  font-size: 1.5em;
+  margin-left: 0.4em;
+}
+
+/* Right Side */
+nav .right img {
+  width: 2em;
+  margin-left: 1em;
+}
+/* Backround Div */
+
+.background {
+  transition: 350ms;
+  transition-timing-function: ease-in-out;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  background-image: url(/img/4.jpg);
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.background-hover {
+  opacity: 0.5;
+}
+
+/* Intro Section */
+
+.intro-section {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 180%;
+  height: 100%;
+  padding: 14em 10em;
+}
+
+.intro-section h2 {
+  line-height: 1.5em;
+  width: 80vw;
+  font-size: 4.8em;
+  letter-spacing: 0.18em;
+}
+
+.intro-section h2 span {
+  transition: 200ms;
+  display: inline-block;
+}
+
+.intro-section h4 {
+  font-size: 2.6em;
+  letter-spacing: 0.1em;
+  color: rgb(75, 75, 75);
+}
+
+.intro-section button {
+  color: var(--font-color);
+  padding: 0.25em 1em;
+  font-size: 1.8em;
+  border-radius: 1000em;
+  margin-top: 0.6em;
+  background-color: var(--light-color);
+  border: 1px solid var(--font-color);
+}
+
+.intro-section .change-size-perm {
+  transform: scale(1.3);
+}
+
+.intro-section .change-size {
+  transform: scale(3);
+  text-shadow: 0.05em 0.05em 0.1em rgba(255, 255, 255, 0.459);
+}
+
+.intro-section .change-color {
+  color: white;
+  text-shadow: 0.05em 0.05em 0.1em var(--shadow-color2);
+  padding-right: 0.2em;
+  transform: translateX(-0.2em) translateY(-0.2em) scale(1.8);
+  letter-spacing: 0.4em;
+}
+
+/* 
+
+.change-size-perm{transform: scale(1.6);
+    display: inline-block;}
+.change-size{transform: scale(1.4);
+display: inline-block;}
+.change-color{color: red;} 
+*/
+
+/* About Section */
+
+.about-section {
+  width: 100%;
+  padding: 5em 10em;
+  background-color: white;
+}
+
+.about-section h2 {
+  font-size: 3em;
+}
+
+.about-section h3 {
+  font-size: 2.2em;
+  opacity: 0.6;
+}
+
+.about-section p {
+  padding-top: 0.4em;
+  font-size: 1.4em;
+  opacity: 0.6;
+  width: 60%;
+}
+
+/* Projects Section */
+
+.projects-section {
+  width: 100%;
+  padding: 5em 15em;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-item {
+  transition: 350ms;
+  margin-top: 5em;
+  width: 22em;
+  height: 24em;
+  border-radius: 0.8em;
+  box-shadow: 0.3em 0.3em 0.6em rgba(0, 0, 0, 0.4);
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0.3em 0.3em 0.6em var(--shadow-color);
+}
+
+.project-item .img {
+  border-radius: 0.8em 0.8em 0 0;
+  width: 100%;
+  height: 12em;
+  background-size: cover;
+}
+
+.text-section {
+  padding: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 12em;
+  align-items: flex-start;
+}
+
+.text-section h3 {
+  font-size: 1.8em;
+}
+.text-section h4 {
+  font-size: 1.1em;
+  opacity: 0.6;
+}
+.text-section button {
+  /* background-color: blue; */
+  border-radius: 100em;
+  font-size: 1.2em;
+  padding: 0.5em;
+}

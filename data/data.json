@@ -1,0 +1,27 @@
+[
+    {
+        "itemName":"Crowdfund",
+        "done":80,
+        "imgUrl":"https://cdn.discordapp.com/attachments/689278978716205163/880463102817230858/Crowdfund.JPG",
+        "openTab":"https://semiotic-karma-304519.web.app",
+        "itemDescription":"That was a challenge on FrontendMentor.com so i accepted it and here it is"
+    },{
+        "itemName":"Calculator",
+        "done":100,
+        "imgUrl":"https://cdn.discordapp.com/attachments/689278978716205163/880828330729930822/unknown.png",
+        "openTab":"https://calculator-rustedmind.web.app/",
+        "itemDescription":"Simple Calculator fully built with vanilla JS , 3 hours taken to finish it."
+    },{
+        "itemName":"Fake Chat Messenger",
+        "done":90,
+        "imgUrl":"https://cdn.discordapp.com/attachments/689278978716205163/889493182088376400/unknown.png",
+        "openTab":"https://fake-chat-rustedmind.web.app/",
+        "itemDescription":"Simple Chat That you can include the user name and his image and use some commands to react with site."
+    },{
+        "itemName":"Rusteefy",
+        "done":20,
+        "imgUrl":"https://cdn.discordapp.com/attachments/689278978716205163/907759092238520420/unknown.png",
+        "openTab":"https://rusteefy.web.app/",
+        "itemDescription":"Music cloud app designed and coded by me \"Still not ready to work\""
+    }
+]
